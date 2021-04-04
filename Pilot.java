@@ -15,7 +15,7 @@ public class Pilot extends Thread{
         e.printStackTrace();
       }
     }
-    System.out.println(this.getName() + " has finished");
+    System.out.println(this.getName() + " has finished.");
   }
   private double getTimeLapInSeconds(int timeInLapInMilliseconds) {
     return (double) timeInLapInMilliseconds/1000;
